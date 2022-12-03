@@ -48,6 +48,10 @@ return packer.startup(function(use)
   use 'kyazdani42/nvim-tree.lua'
   use "akinsho/toggleterm.nvim"
 
+  -- bufferline not tabs
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
+
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
